@@ -10,7 +10,7 @@ class calc:
 				self.value= eval(self.newtext) 
 			except SyntaxError or NameError:
 				self.e.delete(0,END)
-				self.e.insert(0,'Invalid Input!')
+				self.e.insert(0,'ERROR')
 			else:
 				self.e.delete(0,END)
 				self.e.insert(0,self.value)
