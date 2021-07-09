@@ -98,4 +98,5 @@ class calc:
 
 obj=calc(root) 
 
-root.mainloop()
+def main():
+	root.mainloop()
