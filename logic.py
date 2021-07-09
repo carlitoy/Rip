@@ -10,3 +10,13 @@ class calc:
 				self.value= eval(self.newtext) 
 			except SyntaxError:
 				self.e.delete(0,END)
+				self.e.insert(0,'ERROR')
+			except ZeroDivisionError:
+				self.e.delete(0,END)
+				self.e.insert(0,'ERROR')
+			except NameError:
+				self.e.delete(0,END)
+				self.e.insert(0,'ERROR')
+			else:
+				self.e.delete(0,END)
+				self.e.insert(0,self.value)
