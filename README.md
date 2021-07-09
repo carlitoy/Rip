@@ -8,4 +8,4 @@ A calculator made by a group of students named Pytomb.
 # This calculator:
 - has the basic calculator user interface
 - could perform basic mathematical operations and chain them without using parentheses
-- shows an 'ERROR' message in cases invalid inputs
+- shows an 'ERROR' message in cases of invalid inputs
