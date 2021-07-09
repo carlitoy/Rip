@@ -1,2 +1,0 @@
-# Rip
-Group Repository
